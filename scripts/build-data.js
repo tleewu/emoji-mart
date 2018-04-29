@@ -84,6 +84,13 @@ emojiData.forEach((datum) => {
   delete datum.sort_order
   delete datum.sheet_x
   delete datum.sheet_y
+  delete datum.has_img_google
+  delete datum.has_img_twitter
+  delete datum.has_img_emojione
+  delete datum.has_img_facebook
+  delete datum.has_img_messenger
+  delete datum.skin_variations
+  delete datum.non_qualified
 
   for (let key in datum) {
     let value = datum[key]
